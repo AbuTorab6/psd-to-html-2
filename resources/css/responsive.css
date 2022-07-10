@@ -1,0 +1,222 @@
+@media screen and (max-width:1200px)
+{
+    .row
+    {
+        max-width: 100%;
+        padding: 0rem 3rem;
+    }
+    
+    .grid-experience .experience-description
+    {
+        margin-bottom:0rem;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px)
+{
+    .grid-about 
+    {
+       grid-template-columns:1fr;  /*<-------IMPORTANT*/
+    }
+    
+ 
+    .about-section
+    {
+        text-align: center;
+    }
+
+    .mypic
+    {
+        width: 36%;
+        margin-bottom: 5rem;
+    }
+    
+    
+    .grid-working-process
+    {
+       grid-template-columns: repeat(2,1fr);
+    }
+    
+    
+    
+    
+    .grid-work
+    {
+        grid-template-columns: repeat(2,1fr); 
+    }
+    
+    .grid-work .col:nth-child(5)
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px)
+{
+   .mypic
+    {
+        width: 46%;
+        margin-bottom: 5rem;
+    } 
+    
+    
+    
+    .grid-experience
+    {
+        grid-template-columns: 1fr;
+    }
+    
+    .grid-contact
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px)
+{
+    .mypic
+    {
+        width: 66%;
+        margin-bottom: 5rem;
+    } 
+    
+    
+    html,body
+    {
+        font-size:42.5%; 
+    }
+    
+    
+    .grid-working-process
+    {
+         grid-template-columns: 1fr;
+    }
+    
+    .grid-work
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px)
+{
+     html,body
+    {
+        font-size:36.5%; 
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
